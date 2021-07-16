@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mais Coleta</title>
+    </head>
+<body>
+    <div class="auth">
+        <form id="authForm">
+            <h2 id="authFormTitle">Entrar na conta</h2>
+            <label for="e-mail">e-mail</label>
+            <input type="email" placeholder="email" id="email">
+            <br/>
+            <label for="password">senha</label>
+            <input type="password" placeholder="senha" id="password">
+            <button type="submit" id="submitAuthForm">Entrar</button>
+        </form>
+        <p>
+            não possui cadastro?
+            <a href="/register/register.html">criar uma conta</a>
+        </p>
+    </div>
+
+    <!-- links do fireBase -->
+    <script src="https://www.gstatic.com/firebasejs/8.7.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.7.0/firebase-auth.js"></script>
+
+    <!--importando os arquivos-->
+    <script src= "fireBase.js"></script>
+    <script src= "auth.js"></script>
+
+</body>
+</html>
