@@ -1,0 +1,12 @@
+{
+    "configurations": [
+        
+
+        {
+            "type": "pwa-chrome",
+            "name": "lauch edge localhost",
+            "request": "launch",
+            "url": "http://localhost:5500"
+        }
+    ]
+}

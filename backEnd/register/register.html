@@ -7,6 +7,43 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <div class="register">
+        <form id="regForm">
+            <h2 id="regFormTitle">Criar uma conta</h2>
+            <label for="name">Nome</label>
+            <input type="text" placeholder="Seu nome" id="name">
+            <br/>
+            <label for="e-mail">E-mail</label>
+            <input type="email" placeholder="email" id="email">
+            <br/>
+            <label for="password">Senha</label>
+            <input type="password" placeholder="senha" id="password">
+            <br/>
+            <label for="phoneNumber">Telefone</label>
+            <input type="tel" placeholder="nº de telefone" id="phoneNumber">
+            <br/>
+            <label for="CEP">CEP</label>
+            <input type="number" placeholder="CEP" id="CEP">
+            <br/>
+            <label for="endereco">Endereço</label>
+            <input type="text" placeholder="Endereço" id="adress">
+            <br/>
+            <label for="number">Número</label>
+            <input type="number" placeholder="nº da residência" id="adress">
+            <br/>
+            <label for="complement">Complemento</label>
+            <input type="text" placeholder="complemento ao Endereco" id="complement">
+            <br/>
+            <button type="submit" id="submitRegForm">Cadastrar</button>
+        </form>
+    </div>
+
+    <!-- links do fireBase -->
+    <script src="https://www.gstatic.com/firebasejs/8.7.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.7.0/firebase-auth.js"></script>
+
+    <!--importando os arquivos-->
+    <script src= "../fireBase.js"></script>
+    <script src= "./reg.js"></script>
 </body>
 </html>
